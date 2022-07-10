@@ -1,0 +1,12 @@
+h1{ /*box-level*/
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+
+    padding: 10px;
+    
+    margin: auto;
+
+    outline: 5px groove rebeccapurple;
+}

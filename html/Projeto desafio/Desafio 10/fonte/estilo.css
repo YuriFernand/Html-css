@@ -1,0 +1,104 @@
+body{
+    background:rgb(186, 245, 163);
+}
+
+.menu{
+    background-image: linear-gradient(rgb(60, 204,4),rgb(57,192,2),rgb(44,151,2),rgb(39,129,3));
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.menu > h1{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.menu > p{
+    font-family: Arial;
+    font-size: 15px;
+    text-align:center;
+    padding: 20px 0px 0px 0px;
+}
+
+.link{
+    color: aliceblue;
+    margin: 10px;
+    position: relative;
+    top:55px;
+    right:40px;
+    translate: none;
+}
+
+.link:hover{
+    color: aqua;
+   
+}
+
+.corpo{
+    background: white;
+    margin:0px 250px 0px 250px;
+    padding: 15px 10px 50px 10px;
+}
+
+.pess > h1{
+    font-family: Arial;
+    font-size:30px;
+    color:rgb(5, 88, 20);
+    padding:10px;
+}
+
+.pess > h2 {
+    background: rgb(144, 207, 128);
+    color:rgb(11, 99, 23);
+}
+
+.pess > p{
+    margin:10px
+}
+
+.img{
+    position:relative;
+    left: 300px;
+}
+
+.membro{
+    background: rgb(103, 216, 118);
+    border: 15px;
+    border-radius: 5px;
+    margin: 0px,250px;
+}
+
+.membro > h2{
+    background: rgb(13, 92, 6);
+    color:white;
+    padding: 5px;
+}
+
+.membro > p{
+    padding: 12px;
+}
+
+.lista{
+    position: relative;
+    padding: 5px;
+    left: 300px;
+    top: -122px;
+}
+
+.le{
+    position:relative;
+    top:-100;
+}
+
+.rodape{
+    background:rgb(45, 190, 57);
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+/*object fit para colocar a melgor proporçao da imagem*/

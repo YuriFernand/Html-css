@@ -1,0 +1,46 @@
+
+/*
+   em HTML e id = em CSS e #
+   em HTML e class = em CSS e .
+   */
+
+body{
+    background-color: rgb(7, 133, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent:6px;
+    color: rgb(241, 241, 247);
+}
+
+h1{
+    color: rgb(13, 14, 13);
+    font-family:Arial;
+}
+
+#principal{
+    background-color: crimson;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: rgb(81, 165, 70);
+}
+
+.basico{
+    color: rgb(206, 28, 28);
+}
+
+.intermediario{
+    color: yellow;
+    text-align:center;
+
+}
+
+.avancado{
+    color: red;
+    text-indent:6px;
+}
+
+.destaque{
+    background-color: yellowgreen;
+}

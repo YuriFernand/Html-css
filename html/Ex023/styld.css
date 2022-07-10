@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+}
+
+.menu{
+    background:rgb(185, 181, 181);
+    margin:18px;
+    padding:1px;
+    text-align: center;
+    box-shadow: 1px 2px 1px black;
+}
+
+.menu > a {
+    background: rgb(122, 23, 23);
+    text-decoration:none;
+    margin:5px;
+    padding:3px;
+}
+
+.menu:hover > a {
+    background: black;
+    color: red;
+}
+
+.corpo{
+    background:rgb(153, 144, 144);
+    font-family: Arial;
+    margin: 16px;
+    padding:2px;
+}
+
+.pedepe{
+    background:black;
+    color:azure;
+    text-align:center;
+    padding:1px;
+}
+
+.pedepe > p {
+    padding:0px;
+}
+

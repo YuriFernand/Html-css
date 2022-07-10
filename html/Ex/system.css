@@ -1,0 +1,14 @@
+:root{
+    --azul:blue;
+    --preto:#141414;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: ;
+}
