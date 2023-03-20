@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding-bottom: 10%;
+    width: 205vh;
+}
+
+.container{
+    position: relative;
+    color: white;
+    transform: translate(27%,30%);
+}
+
+.container h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 500%;
+}
+
+.autor{
+    position: relative;
+    transform: translate(170px, 14px);
+    font-size: 20px;
+}
+
+.autor a {
+    position: relative;
+    left: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.paragrafo{
+    position: relative;
+    bottom: -250px;
+    padding: 23px;
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+}
