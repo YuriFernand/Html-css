@@ -1,49 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Poppins:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
     margin: 0px;
     padding: 0px;
 }
 
 #menu{
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
     background: black;
-    padding-bottom: 10%;
-    width: 205vh;
+    padding-bottom: 15%;
 }
 
-.container{
+.container h1 {
     position: relative;
+    display: flex;
     color: white;
-    transform: translate(27%,30%);
+    font-family: 'Russo One', sans-serif;
+    align-items: center;
+    flex-direction: column;
+   bottom: -45px;
+   font-size: 348%;
+
 }
 
-.container h1{
-    font-family: 'Anton', sans-serif;
-    font-size: 500%;
-}
-
-.autor{
-    position: relative;
-    transform: translate(170px, 14px);
-    font-size: 20px;
+.autor {
+    position: absolute;
+    color: white;
+    transform: translate(476px, 82px)
 }
 
 .autor a {
-    position: relative;
-    left: 12px;
     color: white;
+    font-family: 'Archivo Black', sans-serif;
     text-decoration: none;
 }
 
-.paragrafo{
+.tesxtos{
     position: relative;
-    bottom: -250px;
-    padding: 23px;
-    font-size: 38px;
-    font-family: 'Poppins', sans-serif;
+    transform: translate(6px,40px);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 250%;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
+
+.paragrafo01{
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.imagem01{
+    background-attachment: fixed;
+    background-image:url(imagem/background001.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    transform: translate(-5px, 399px);
+    width: 100%;
+    position: absolute;
+}
+
+.paragrafo02{
+
+  position:relative;
+  padding-bottom: 25px;
+  transform:translate(15px,64px)
+
+}
+
+
+.paragrafo03{
+
+  position:relative;
+  padding-bottom: 25px;
+  transform: translate(15px,657px);
+
+}
+
+
+.paragrafo04{
+
+  position:relative;
+  padding-bottom: 25px;
+  transform: translate(15px,660px);
+
+}
+
+
+
+
+.paragrafo05{
+
+  position: relative;
+  padding-bottom: 25px;
+  transform: translate(-6px,708px);
+  background-image: url(imagem/background002.jpg);
+  background-position: left;
+  padding: 48px;
+}
+
+
+.paragrafo06{
+
+  position:relative;
+  padding-bottom: 25px;
+  transform: translate(15px,805px);
+
+}
+
+
+.paragrafo07{
+
+   position:relative;
+   padding-bottom: 25px;
+   transform: translate(15px,915px);
+}
+
+
+
+
+
+
+
