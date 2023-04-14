@@ -13,6 +13,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
+    
 }
 
 #menu{
@@ -27,8 +29,8 @@ body{
     font-family: 'Russo One', sans-serif;
     align-items: center;
     flex-direction: column;
-   bottom: -45px;
-   font-size: 348%;
+    bottom: -45px;
+    font-size: 348%;
 
 }
 
@@ -68,6 +70,8 @@ body{
     transform: translate(-5px, 399px);
     width: 100%;
     position: absolute;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
 .paragrafo02{
@@ -107,6 +111,7 @@ body{
   background-image: url(imagem/background002.jpg);
   background-position: left;
   padding: 48px;
+  box-sizing: border-box;
 }
 
 
